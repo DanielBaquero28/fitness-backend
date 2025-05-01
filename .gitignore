@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env
+
+# SQLite DB (optional)
+*.db
+
+# macOS and system files
+.DS_Store
+
+# Logs
+*.log
+
+# IDE configs
+.vscode/
+.idea/
+
+# Uvicorn reload files
+*.pid
