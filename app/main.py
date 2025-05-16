@@ -10,7 +10,7 @@ app = FastAPI()
 # Allow CORS from frontend domain
 origins = [
     "http://localhost:3000", #dev
-    "https://your-vercel-app.vercel.app" #prod
+    "https://fitness-frontend-five.vercel.app" #prod
 ]
 
 app.add_middleware(
